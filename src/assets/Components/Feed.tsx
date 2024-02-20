@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import  { useEffect } from "react";
 import { dogFetch, useAsyncUserData } from "./stores";
 import Loading from "./Loading";
 

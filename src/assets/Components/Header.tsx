@@ -1,4 +1,4 @@
-import React from "react";
+
 import { dogFetch, useAsyncUserData } from "./stores";
 
 const Header = () => {
