@@ -106,7 +106,7 @@ export const dogFetch = create<feedphoto>((set, get) => ({
     set((state) => ({ loading: true, page: state.page + 1 }));
     const { page } = get();
     const response = await fetch(
-      `https://dogsapi.origamid.dev/json/api/photo/?_page=${page}&_total=2&_user=0`,
+      `https://dogsapi.origamid.dev/json/api/photo/?_page=${page}&_total=3&_user=0`,
       {
         method: "GET",
         cache: "no-cache",
