@@ -96,6 +96,9 @@ img {
   border-radius: 5px;
   overflow: hidden;
   cursor: pointer;
+  &:hover {
+    filter: brightness(97%);
+  }
 
   img {
     object-fit: cover;
